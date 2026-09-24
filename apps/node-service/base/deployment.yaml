@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: node-service
-          image: node-service-template:1.0.0
+          image: ghcr.io/noussayba98/node-service-template:f6d1e40cc958fadb79dc4be3e312f5f1864d9cd9
           imagePullPolicy: IfNotPresent
 
           ports:
